@@ -1,4 +1,4 @@
-if (futils === undefined) angular.module('fUtils', ['ngCookies']); 
+//angular.module('fUtils', ['ngCookies']); 
 
 angular.module('fUtils').factory('cookie', ['$cookies', function($cookies) {
     var permitted = false;
